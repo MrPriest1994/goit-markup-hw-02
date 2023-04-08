@@ -1,4 +1,12 @@
+:root {
+  --ptimary-text-color: #2e2f42;
+  --tittle-text-color: #434455;
+  --accent-color: #4d5ae5;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+
   background-color: #ffffff;
+  color: var(--tittle-text-color);
 }

@@ -3,7 +3,9 @@
   --tittle-text-color: #434455;
   --accent-color: #4d5ae5;
 }
-
+ul {
+  list-style: none;
+}
 body {
   font-family: "Roboto", sans-serif;
 
@@ -26,7 +28,6 @@ body {
 }
 /* Navigation list */
 .list {
-  list-style: none;
 }
 .list-item :hover {
   color: #404bbf;
@@ -51,5 +52,4 @@ body {
   text-decoration: none;
 }
 .addres-list {
-  list-style: none;
 }

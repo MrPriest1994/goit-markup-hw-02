@@ -46,18 +46,17 @@ body {
   color: var(--ptimary-text-color);
   text-decoration: none;
 }
-.list-link :hover {
-  color: #404bbf;
+.link-item {
+  text-decoration: none;
 }
-.list-link :focus {
-  color: #404bbf;
+.addres-list {
+  font-style: normal;
 }
+
 .addres-item {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--tittle-text-color);
   font-style: normal;
   text-decoration: none;
-}
-.addres-list {
 }

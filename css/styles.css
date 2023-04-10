@@ -1,62 +1,73 @@
 :root {
-  --ptimary-text-color: #2e2f42;
-  --tittle-text-color: #434455;
-  --accent-color: #4d5ae5;
+  --brand-button-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --color-for-text-headings: #2e2f42;
+  --succes-color: #31d0aa;
+  --main-text-color: #434455;
+  --other-text-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --light-mode-bckgrounds: #f4f4fd;
+  --modal-overlay-color: #2e2f42;
+  --hero-background-color: #2e2f42;
+  --white-background-color: #ffffff;
+  --modal-background-color: #fcfcfc;
 }
-ul {
-  list-style: none;
-}
-
+/* Main page */
 body {
   font-family: "Roboto", sans-serif;
-
-  background-color: #ffffff;
-  color: var(--tittle-text-color);
-  list-style: normal;
+  color: #2e2f42;
 }
-/* Logo */
-.link {
-  font-family: "Raleway", sans-serif;
+/* Logo styles */
+.logo-link {
+  font-family: "Raleway";
+  font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1.1;
+  text-decoration: none;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+.logo-item {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.1;
   text-decoration: none;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
 }
-.link-item {
-  color: var(--ptimary-text-color);
-}
-/* Navigation list */
-.list {
-}
-.list-item :hover {
-  color: #404bbf;
-}
-.list-item :focus {
-  color: #404bbf;
-}
-
-.list-link {
+/* Header navigation */
+.nav-menu {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--ptimary-text-color);
+  color: #2e2f42;
+  list-style: none;
+}
+.nav-item {
   text-decoration: none;
 }
-.link-item {
+/* Addres list */
+.addres-part {
+  font-family: "Roboto";
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  list-style: none;
+  letter-spacing: 0.02em;
+
+  color: #434455;
+}
+.addres-item {
   text-decoration: none;
 }
 .addres-list {
   font-style: normal;
-}
-
-.addres-item {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--tittle-text-color);
-  font-style: normal;
-  text-decoration: none;
+  list-style: none;
 }

@@ -31,7 +31,7 @@ body {
   color: #4d5ae5;
 }
 .logo-item {
-  font-family: "Raleway";
+  font-family: "Raleway" sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -42,33 +42,13 @@ body {
   color: #2e2f42;
 }
 /* Header navigation */
-.nav-menu {
+.list {
+  list-style: none;
+}
+.list-item {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-  list-style: none;
-}
-.nav-item {
-  text-decoration: none;
-}
-/* Addres list */
-.addres-part {
-  font-family: "Roboto";
-
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  list-style: none;
-  letter-spacing: 0.02em;
-
-  color: #434455;
-}
-.addres-item {
-  text-decoration: none;
-}
-.addres-list {
-  font-style: normal;
-  list-style: none;
+  color: var(--color-for-text-headings);
 }

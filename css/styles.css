@@ -106,3 +106,16 @@ ul {
 .order-button :focus {
   color: #404bbf;
 }
+/* Features */
+.features-head {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.section-tittle {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* Company functions */

@@ -122,19 +122,24 @@ ul {
 }
 /* Company functions, and team list styles for <ul><ul/(next setion)> */
 .company-functions,
-.team-list {
+.team-list,
+.employee {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
 }
-/* Our team */
+/* Our team, if you need change styles in "h3", request to "Company-functions" */
 .team {
   background-color: #f4f4fd;
 }
 .team-list {
+  letter-spacing: 0.02em;
 }
 .team-photo {
   background-color: #ffffff;
+}
+/* If need change styles, turn to "team-list-style" */
+.employee {
 }

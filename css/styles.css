@@ -25,7 +25,8 @@ ul {
   list-style: none;
 }
 /* Logo styles */
-.logo-part {
+.logo-part,
+.portfolio-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -36,7 +37,8 @@ ul {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logo-item {
+.logo-item,
+.portfolio-item {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;

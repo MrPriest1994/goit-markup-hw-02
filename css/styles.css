@@ -136,10 +136,31 @@ ul {
 }
 .team-list {
   letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 }
 .team-photo {
   background-color: #ffffff;
 }
-/* If need change styles, turn to "team-list-style" */
+/* If need change styles, turn to "team-list style" */
 .employee {
+}
+/* Footer */
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.footer-item {
+  color: #f4f4fd;
 }

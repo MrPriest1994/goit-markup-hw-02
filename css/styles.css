@@ -66,8 +66,7 @@ ul {
 .addres-list {
   font-style: normal;
 }
-.addres-list {
-}
+
 .addres-url {
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -144,16 +143,13 @@ ul {
   background-color: #ffffff;
 }
 /* If need change styles, turn to "team-list style" */
-.employee {
-}
+
 /* Footer */
-.footer,
-.footer-portfolio {
+.footer {
   background-color: #2e2f42;
 }
 
-.footer-logo,
-.portfolio-footer {
+.footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -163,7 +159,27 @@ ul {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.footer-item,
-.footer-portfolio-item {
+.footer-item {
   color: #f4f4fd;
+}
+/*Main portfolio styles */
+.buttons {
+  list-style: none;
+}
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+.button :hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.button :focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }

@@ -176,11 +176,11 @@ ul {
   cursor: pointer;
   font-family: "Roboto", sans-serif;
 }
-.button-style :hover {
+.button-item :hover {
   color: #ffffff;
   background-color: #404bbf;
 }
-.button-style :focus {
+.button-item :focus {
   color: #ffffff;
   background-color: #404bbf;
 }

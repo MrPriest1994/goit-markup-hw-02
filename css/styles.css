@@ -194,3 +194,9 @@ ul {
   background-color: #f4f4fd;
   cursor: pointer;
 }
+.portfolio-gallery {
+  list-style: none;
+}
+.portfolio-item {
+  text-decoration: none;
+}

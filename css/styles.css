@@ -200,3 +200,15 @@ ul {
 .portfolio-item {
   text-decoration: none;
 }
+.img-head {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-for-text-headings);
+}
+.img-dscr {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}

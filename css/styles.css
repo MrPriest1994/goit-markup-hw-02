@@ -116,8 +116,8 @@ ul {
 }
 .features-head {
   font-weight: 500;
-  font-size: 36px;
-  line-height: 1.11;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -130,21 +130,21 @@ ul {
 .company-functions,
 .team-list,
 .employee {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  text-transform: capitalize;
-  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 /* Our team, if you need change styles in "h3", request to "Company-functions" */
 .team {
   background-color: #f4f4fd;
 }
 .team-list {
-  letter-spacing: 0.02em;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .team-photo {
   background-color: #ffffff;

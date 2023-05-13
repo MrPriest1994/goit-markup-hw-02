@@ -127,13 +127,21 @@ ul {
   letter-spacing: 0.02em;
 }
 /* Company functions, and team list styles for <ul><ul/(next setion)> */
-.company-functions,
+.company-functions {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-for-text-headings);
+}
 .team-list,
 .employee {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--color-for-text-headings);
 }
 /* Our team, if you need change styles in "h3", request to "Company-functions" */
 .team {

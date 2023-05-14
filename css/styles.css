@@ -99,10 +99,10 @@ ul {
   color: #ffffff;
   cursor: pointer;
 }
-.order-button:hover {
+.hero-section:hover {
   color: #404bbf;
 }
-.order-button:focus {
+.hero-section:focus {
   color: #404bbf;
 }
 /* Features */
